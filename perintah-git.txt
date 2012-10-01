@@ -1,0 +1,4 @@
+Berbagai perintah yang umum digunakan di git:
+
+1. Membuat repository baru
+Perintah : git init
