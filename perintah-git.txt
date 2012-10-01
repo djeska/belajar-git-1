@@ -2,3 +2,47 @@ Berbagai perintah yang umum digunakan di git:
 
 1. Membuat repository baru
 Perintah : git init
+
+2. Melihat kondisi/status working folder
+Perintah : git status
+
+3. Melihat history perubahan 
+Perintah : git log
+
+4. Melihat perbandingan antar dua versi
+Perintah : git diff
+Variasi:
+git diff --staged : membandingkan posisi commit terakhir dengan isi staging
+git diff : membandingkan posisi working dengan staging
+git diff HEAD : membandingkan working dengan commit terakhir
+
+5. Melihat riwayat perubahan  
+Perintah : git log --oneline
+
+6. Mengembalikan textfile yang terhapus di dalam folder
+Perintah : git checkout -- perintah-git.txt
+
+7. Melihat daftar nama branch
+Perintah : git branch -a
+
+git add -i : pilih nama file
+git add -p : pilih patch
+	s : split
+	q : quit
+	n : no
+	y : yes
+
+git commit -a : commit semua
+
+git reset HEAD : undo
+git reset --hard : semua perubahan di local akan dihapus jika ada yang
+		   belum di commit
+git revert 0920920 : mengembalikkan atau menghilangkan isi didalam textfile
+
+git branch 
+git checkout [nama branch] : Pindah branch
+git log --oneline --graph --all --decorate : 
+
+Tag : untuk memberi nama
+git tag [nama versi] versi-1.0 [7digit] 
+--
