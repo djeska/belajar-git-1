@@ -12,8 +12,6 @@ Fungsi 1()
 Akhir Fungsi 1
 //-------------------------
 
-<<<<<<< HEAD
-
 Versi 2
 //-------------------------
 Fungsi 1()
@@ -21,3 +19,9 @@ Fungsi 1()
 Akhir Fungsi 1
 //-------------------------
 github-ryan-a, shared repositoy
+
+Test ya
+//-------------------------
+github-ryan-a, shared repository
+
+ya ya
