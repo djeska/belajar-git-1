@@ -12,5 +12,11 @@ Fungsi 1()
 Akhir Fungsi 1
 //-------------------------
 
+<<<<<<< HEAD
 Test ya
 //-------------------------
+=======
+github-ryan-a, shared repository
+>>>>>>> origin/master
+
+ya ya
