@@ -46,3 +46,15 @@ git log --oneline --graph --all --decorate :
 Tag : untuk memberi nama
 git tag [nama versi] versi-1.0 [7digit] 
 --
+
+___________MERGE____________
+1. Masuk ke branch tujuan
+2. Tarik branch yang mau di merge
+	git merge [nama_branch]
+   - Sukses
+	Edit di tempat berbeda
+   - Conflict
+	Edit di tempat sama
+	. Mine : versi editan sendiri
+	. Theirs : editan orang lain
+	. Gabungan
